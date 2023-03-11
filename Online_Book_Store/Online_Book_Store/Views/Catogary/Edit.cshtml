@@ -1,0 +1,28 @@
+﻿<h1>edit Category Page</h1>
+@model Clategory
+
+<form method="post" asp-action="EditCategory">
+
+    <div asp-validation-summary="All"></div>
+    <div class="mb-3">
+        <label asp-for="Name"></label>
+        <input asp-for="Name" type="text" class="form-control">
+        <span asp-validation-for="Name" class="text-danger"> </span>
+    </div>
+    <div class="mb-3">
+        <label asp-for="DisplayedOrder"></label>
+        <input asp-for="DisplayedOrder" type="number" class="form-control">
+        <span asp-validation-for="DisplayedOrder" class="text-danger"> </span>
+    </div>
+    <div class="mb-3">
+        <label asp-for="createdDateTime"></label>
+        <input asp-for="createdDateTime" type="datetime" class="form-control">
+        <span asp-validation-for="createdDateTime" class="text-danger"></span>
+    </div>
+
+
+    <button type="submit" class="btn btn-warning">Edit</button>
+    <button type="submit" class="btn btn-danger>
+        <a class="text-white fs-5" asp-controller="Catogary" asp-action="Index">   &nbsp; Go To Category</a>
+    </button>
+</form>
