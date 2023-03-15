@@ -1,0 +1,66 @@
+﻿@*@model List<Instructor>*@
+
+<div class="d-flex justify-content-center m-5">
+    <h1>welcome to instructors Page</h1>
+</div>
+
+@* to render temp data*@
+<partial name="_notification"></partial>
+
+<div class="container">
+
+    <div class="row p-4">
+
+        <div class="col-6 text-warning">  </div>
+        <div class="col-6 text-end ">
+            <a class="nav-link text-warning fs-5" asp-controller="Instructor" asp-action="AddInstructor">  <i class="bi bi-plus-circle"></i>  Add New instructor</a>
+        </div>
+
+    </div>
+
+</div>
+
+<table class="table">
+    <thead>
+        <tr>
+
+            <th scope="col">Id</th>
+            <th scope="col"> name</th>
+            <th scope="col">image</th>
+            <th scope="col">salary</th>
+            <th scope="col">address</th>
+            <th scope="col">Dept_name</th>
+            <th scope="col">Course</th>
+            <th scope="col">Actions</th>
+            
+
+
+        </tr>
+    </thead>
+    @foreach (var item in Model)
+    {
+        <tbody>
+            <tr>
+
+                <td>@item.inst_id</td>
+                <td>@item.name</td>
+                <td>  <img src="~/imgs/@(item.image)">  </td>
+                <td>@item.salary</td>
+                <td>@item.address</td>
+                <td>@item.departmentname</td>
+                <td>@item.cousename</td>
+                <td class="justify-content-around">
+                    <a class="text-warning px-4" asp-controller="instructor" asp-action="details" asp-route-id="@item.inst_id"> <i class="bi bi-info-circle"></i> Details</a>
+                    <a class=" text-info" asp-controller="instructor" asp-action="edit" asp-route-id="@item.inst_id"> <i class="bi bi-pen"></i>Edit</a>
+                </td>
+                
+
+
+
+            </tr>
+
+        </tbody>
+
+    }
+
+</table>

@@ -1,0 +1,42 @@
+﻿
+<div class="d-flex justify-content-center m-5">
+    <h1 class="text-warning">welcome to instructors Details Page</h1>
+</div>
+
+@model Instructor
+@if (TempData["success"] !=null)
+{
+    <h1>@TempData["success"]</h1>
+}
+
+<table class="table">
+    <thead>
+        <tr>
+
+            <th scope="col">Id</th>
+            <th scope="col"> name</th>
+            <th scope="col">image</th>
+            <th scope="col">salary</th>
+            <th scope="col">address</th>
+            <th scope="col">Crs_id</th>
+            <th scope="col">details</th>
+
+        </tr>
+    </thead>
+
+    <tbody>
+        <tr>
+            <td>@Model.Id</td>
+            <td>@Model.Name</td>
+            <td>  <img src="~/imgs/@(Model.Image)">  </td>
+            <td>@Model.Salary</td>
+            <td>@Model.Address</td>
+            <td>@Model.dept_id</td>
+            <td>@Model.crs_id</td>
+         
+        </tr>
+
+    </tbody>
+</table>
+
+<button class="btn btn-info"> <a class="fs-5 text-black text-decoration-none"  asp-controller="instructor" asp-action="index"> Back</a>    </button>

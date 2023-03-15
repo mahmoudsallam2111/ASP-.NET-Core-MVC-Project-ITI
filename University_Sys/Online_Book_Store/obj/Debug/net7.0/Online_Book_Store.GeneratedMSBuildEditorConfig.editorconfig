@@ -1,0 +1,93 @@
+is_global = true
+build_property.TargetFramework = net7.0
+build_property.TargetPlatformMinVersion = 
+build_property.UsingMicrosoftNETSdkWeb = true
+build_property.ProjectTypeGuids = 
+build_property.InvariantGlobalization = 
+build_property.PlatformNeutralAssembly = 
+build_property.EnforceExtendedAnalyzerRules = 
+build_property._SupportedPlatformList = Linux,macOS,Windows
+build_property.RootNamespace = Online_Book_Store
+build_property.RootNamespace = Online_Book_Store
+build_property.ProjectDir = D:\ASP NET CORE MVC\ASP-.NET-Core-MVC-Project-ITI\University_Sys\Online_Book_Store\
+build_property.RazorLangVersion = 7.0
+build_property.SupportLocalizedComponentNames = 
+build_property.GenerateRazorMetadataSourceChecksumAttributes = 
+build_property.MSBuildProjectDirectory = D:\ASP NET CORE MVC\ASP-.NET-Core-MVC-Project-ITI\University_Sys\Online_Book_Store
+build_property._RazorSourceGeneratorDebug = 
+
+[D:/ASP NET CORE MVC/ASP-.NET-Core-MVC-Project-ITI/University_Sys/Online_Book_Store/Views/Course/AddCourse.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ291cnNlXEFkZENvdXJzZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/ASP NET CORE MVC/ASP-.NET-Core-MVC-Project-ITI/University_Sys/Online_Book_Store/Views/Course/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ291cnNlXERlbGV0ZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/ASP NET CORE MVC/ASP-.NET-Core-MVC-Project-ITI/University_Sys/Online_Book_Store/Views/Course/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ291cnNlXEVkaXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/ASP NET CORE MVC/ASP-.NET-Core-MVC-Project-ITI/University_Sys/Online_Book_Store/Views/Course/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ291cnNlXEluZGV4LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/ASP NET CORE MVC/ASP-.NET-Core-MVC-Project-ITI/University_Sys/Online_Book_Store/Views/Home/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/ASP NET CORE MVC/ASP-.NET-Core-MVC-Project-ITI/University_Sys/Online_Book_Store/Views/Home/Privacy.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxQcml2YWN5LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/ASP NET CORE MVC/ASP-.NET-Core-MVC-Project-ITI/University_Sys/Online_Book_Store/Views/Instructor/AddInstructor.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSW5zdHJ1Y3RvclxBZGRJbnN0cnVjdG9yLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/ASP NET CORE MVC/ASP-.NET-Core-MVC-Project-ITI/University_Sys/Online_Book_Store/Views/Instructor/details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSW5zdHJ1Y3RvclxkZXRhaWxzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/ASP NET CORE MVC/ASP-.NET-Core-MVC-Project-ITI/University_Sys/Online_Book_Store/Views/Instructor/edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSW5zdHJ1Y3RvclxlZGl0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/ASP NET CORE MVC/ASP-.NET-Core-MVC-Project-ITI/University_Sys/Online_Book_Store/Views/Instructor/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSW5zdHJ1Y3RvclxJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/ASP NET CORE MVC/ASP-.NET-Core-MVC-Project-ITI/University_Sys/Online_Book_Store/Views/Shared/Error.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXEVycm9yLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/ASP NET CORE MVC/ASP-.NET-Core-MVC-Project-ITI/University_Sys/Online_Book_Store/Views/Shared/_mylayout.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9teWxheW91dC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/ASP NET CORE MVC/ASP-.NET-Core-MVC-Project-ITI/University_Sys/Online_Book_Store/Views/Shared/_notification.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9ub3RpZmljYXRpb24uY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/ASP NET CORE MVC/ASP-.NET-Core-MVC-Project-ITI/University_Sys/Online_Book_Store/Views/Shared/_ValidationScriptsPartial.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/ASP NET CORE MVC/ASP-.NET-Core-MVC-Project-ITI/University_Sys/Online_Book_Store/Views/Trainee/getallresul.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVHJhaW5lZVxnZXRhbGxyZXN1bC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/ASP NET CORE MVC/ASP-.NET-Core-MVC-Project-ITI/University_Sys/Online_Book_Store/Views/Trainee/showresult.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVHJhaW5lZVxzaG93cmVzdWx0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/ASP NET CORE MVC/ASP-.NET-Core-MVC-Project-ITI/University_Sys/Online_Book_Store/Views/_ViewImports.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/ASP NET CORE MVC/ASP-.NET-Core-MVC-Project-ITI/University_Sys/Online_Book_Store/Views/_ViewStart.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdTdGFydC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/ASP NET CORE MVC/ASP-.NET-Core-MVC-Project-ITI/University_Sys/Online_Book_Store/Views/Shared/_Layout.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9MYXlvdXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = b-jjk0rg5t4b

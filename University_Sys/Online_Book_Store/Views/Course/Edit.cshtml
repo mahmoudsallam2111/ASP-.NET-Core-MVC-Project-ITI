@@ -1,0 +1,50 @@
+﻿
+@model Course
+
+@{
+    Layout = "_mylayout";
+    SelectList department_list = new SelectList(ViewBag.deptlist, "Id", "Name");
+}
+
+
+
+<form method="post">
+
+
+
+
+    <div class="mb-3">
+        <label asp-for="Name"></label>
+        <input asp-for="Name" type="text" class="form-control">
+        <span asp-validation-for="Name" class="text-danger"></span>
+    </div>
+
+
+
+    <div class="mb-3">
+        <label asp-for="Degree"></label>
+        <input asp-for="Degree" type="text" class="form-control">
+        <span asp-validation-for="Degree" class="text-danger"></span>
+    </div>
+
+    <label asp-for="Mindegree"></label>
+    <input asp-for="Mindegree" type="text" class="form-control">
+    <span asp-validation-for="Mindegree" class="text-danger"></span>
+
+
+
+    <lable>choose department</lable>
+    <select  class="form-control" asp-for="dept_id" asp-items="department_list">
+        <span asp-validation-for="dept_id" class="text-danger"></span>
+    </select>
+
+
+    <button type="submit" class="btn btn-warning">Edit</button>
+    <button type="submit" class="btn btn-danger>
+        <a class="text-white fs-5" asp-controller="Course" asp-action="Index">   &nbsp; Go Back</a>
+    </button>
+</form>
+
+@section Scripts {
+    <partial name="_ValidationScriptsPartial"></partial>
+}

@@ -1,0 +1,30 @@
+﻿<div class="d-flex justify-content-center m-5">
+    <h1 class="text-warning">@TempData["stdname"] result</h1>
+</div>
+
+
+
+<table class="table">
+    <thead>
+        <tr>
+
+            <th scope="col">TraineeName</th>
+            <th scope="col">CourseName</th>
+            <th scope="col">ResultDegree</th>
+
+        </tr>
+    </thead>
+    @foreach (var item in Model)
+    {
+        <tbody>
+            <tr class="fs-5" style="color:@(item.ResultDegree > item.minimaldegree ? "green" : "red")">
+                <td>@item.TraineeName</td>
+                <td>@item.CourseName </td>
+                <td>@item.ResultDegree</td>
+            </tr>
+
+        </tbody>
+
+    }
+
+</table>

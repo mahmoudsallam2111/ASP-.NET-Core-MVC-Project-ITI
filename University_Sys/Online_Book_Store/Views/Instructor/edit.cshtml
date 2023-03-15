@@ -1,0 +1,78 @@
+﻿<h1>Edit Instructor Page</h1>
+@model Instructor
+
+<form method="post">
+
+    <div class="mb-3">
+        <label asp-for="Name"></label>
+        <input asp-for="Name" type="text" class="form-control">
+        <span asp-validation-for="Name" class="text-danger"></span>
+    </div>
+
+    <div class="mb-3">
+        <img style="width:100px ; height:100px" src="~/imgs/@ViewBag.img" />
+    </div>
+
+
+    <div class="mb-3">
+        <label asp-for="Image"></label>
+        <input asp-for="Image" name="Image" value="@ViewBag.img" type="file" class="form-control">
+        <span asp-validation-for="Image" class="text-danger"></span>
+    </div>
+
+
+
+   
+
+    <div class="mb-3">
+        <label asp-for="Salary"></label>
+        <input asp-for="Salary" type="number" class="form-control">
+        <span asp-validation-for="Salary" class="text-danger"></span>
+    </div>
+
+    <div class="mb-3">
+        <label asp-for="Address"></label>
+        <input asp-for="Address" type="text" class="form-control">
+        <span asp-validation-for="Address" class="text-danger"></span>
+    </div>
+
+
+    <lable>choose department</lable>
+    <select name="dept_id" id="dept_id" class="form-control">
+        @foreach (var itemDept in ViewBag.deptlist)
+        {
+            @if (Model.dept_id == itemDept.Id)
+            {
+                <option value="@itemDept.Id" selected>@itemDept.Name</option>
+            }
+            else
+            {
+                <option value="@itemDept.Id">@itemDept.Name</option>
+            }
+        }
+        <span asp-validation-for="dept_id" class="text-danger"></span>
+    </select>
+
+
+    <label>choose course</label>
+    <select name="crs_id" id="crs_id" class="form-control">
+        @foreach (var itemDept in ViewBag.crslist)
+        {
+            @if (Model.crs_id == itemDept.Id)
+            {
+                <option value="@itemDept.Id" selected>@itemDept.Name</option>
+            }
+            else
+            {
+                <option value="@itemDept.Id">@itemDept.Name</option>
+            }
+        }
+        <span asp-validation-for="crs_id" class="text-danger"></span>
+    </select>
+
+
+    <button type="submit" class="btn btn-warning">Edit</button>
+    <button type="submit" class="btn btn-danger>
+        <a class="text-white fs-5" asp-controller="Instructor" asp-action="Index">   &nbsp; Go Back</a>
+    </button>
+</form>
